@@ -28,12 +28,15 @@ ARMU-DPs Workshop, 19.06.2018
 - Short revision: git setup, git basics
 - Web hosting pros and cons: GitHub, GitLab, BitBucket
 - A typical "pull/merge request" cycle
-- Handling conflicts
+- Handling merge conflicts
 - Tags and DOIs with Zenodo
 - Continuous integration: testing with Travis, documentation with ReadTheDocs
-- Anything else?
 
----
+----
+
+### Q: Anything else you'd like to talk about?
+
+----
 
 ### Q: Who is using git in this room, and what for?
 
