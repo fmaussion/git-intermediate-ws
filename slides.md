@@ -143,7 +143,6 @@ $ git config --global user.email johndoe@example.com
 - [GitLab](https://about.gitlab.com/): open-source
   platform: UIBK has its own deployment (https://git.uibk.ac.at)
 
-
 ---
 
 ## Hosting service comparison
@@ -151,8 +150,6 @@ $ git config --global user.email johndoe@example.com
 ----
 
 ### BitBucket
-
-<section style="text-align: left; font-size: 0.7em">
 
 
 **Pros**:
@@ -163,20 +160,16 @@ $ git config --global user.email johndoe@example.com
 - no continuous integration service (not for free)
 - not GitHub
 
+
 ----
 
 ### GitLab
 
-<section style="text-align: left; font-size: 0.7em">
-
-
 **Pros**:
 - web-hosted OR self-hosted
 - open source
-- different pricing plans
 - integrated continuous integration
 - growing fast!
-- Gitlab Pages
 - not GitHub
 
 **Cons**:
@@ -186,8 +179,6 @@ $ git config --global user.email johndoe@example.com
 ----
 
 ### GitHub
-
-<section style="text-align: left; font-size: 0.7em">
 
 **Pros**:
 - established and used by many (everybody?)
@@ -377,7 +368,7 @@ $ git merge experiment
 
 ---
 
-<section style="text-align: left">
+<div align="left">
 
 **Actually: <br> let's forget about this and do real world things**
 
@@ -386,6 +377,8 @@ The "real world" github / gitlab workflow is already quite far from these
 local considerations. A basic understanding of branches is necessary, but
 if you don't do naughty things you should never have to merge or rebase
 yourself.
+
+</div>
 
 ---
 
@@ -521,9 +514,41 @@ Only for your personal belongings!
 
 ---
 
-### Merge conflicts: the hard way
+### Basic merge conflicts: <br> the local way
 
-This is a line in dev
+Demo
+
+Based on: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+----
+
+### Basic merge conflicts: <br> the github way
+
+----
+
+### Basic merge conflicts: <br> the gitlab way?
+
+---
+
+### Tagging
+
+As easy as:
+
+```bash
+$ git tag -a v1.4 -m "Version 1.4: bugfixes"
+$ git push origin v1.4
+```
+
+----
+
+### On GitHub/Gitlab: releases
+
+Github/GitLab use tags as "releases" and offer download tools for these.
+
+[zenodo.org](https://zenodo.org/) provides hooks to GitHub and provide a
+DOI automatically for each release.
+
+Example: [OGGM versions](https://zenodo.org/record/1290740#.WyjE8Bx9hD8)
 
 ---
 
@@ -531,7 +556,6 @@ This is a line in dev
 
 - [git reference book](https://git-scm.com/book/en/v2)
 - [git handbook from github](https://guides.github.com/introduction/git-handbook/)
-
 
 ---
 
